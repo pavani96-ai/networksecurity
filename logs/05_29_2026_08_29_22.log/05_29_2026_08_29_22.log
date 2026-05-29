@@ -1,0 +1,24 @@
+[ 2026-05-29 08:29:27,236 ] 1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-05-29 08:29:27,245 ] 107 dagshub - INFO -Accessing as pavani96-ai
+[ 2026-05-29 08:29:29,448 ] 1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/pavani96-ai/network_security1 "HTTP/1.1 200 OK"
+[ 2026-05-29 08:29:30,775 ] 1025 httpx - INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-05-29 08:29:30,777 ] 107 dagshub - INFO -Initialized MLflow to track repo "pavani96-ai/network_security1"
+[ 2026-05-29 08:29:30,778 ] 107 dagshub - INFO -Repository pavani96-ai/network_security1 initialized!
+[ 2026-05-29 08:29:30,778 ] 16 root - INFO -initiate the data ingestion
+[ 2026-05-29 08:29:45,273 ] 67 root - INFO -Performed train test split on the dataframe
+[ 2026-05-29 08:29:45,273 ] 69 root - INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-05-29 08:29:45,301 ] 77 root - INFO -Exporting train and test file path.
+[ 2026-05-29 08:29:45,360 ] 86 root - INFO -Exported train and test file path.
+[ 2026-05-29 08:29:45,366 ] 21 root - INFO -Initiate the data Validation
+[ 2026-05-29 08:29:45,387 ] 35 root - ERROR -Column count mismatch. Expected: 2, Got: 31
+[ 2026-05-29 08:29:45,388 ] 35 root - ERROR -Column count mismatch. Expected: 2, Got: 31
+[ 2026-05-29 08:29:45,560 ] 23 root - INFO -data Validation Completed
+[ 2026-05-29 08:29:45,574 ] 26 root - INFO -data Transformation started
+[ 2026-05-29 08:29:45,575 ] 56 root - INFO -entered initiate_data_transformation method of DataTransformation class
+[ 2026-05-29 08:29:45,575 ] 58 root - INFO -starting datab transformation
+[ 2026-05-29 08:29:45,598 ] 44 root - INFO -Entered get_data_transformer_object method of transformation class
+[ 2026-05-29 08:29:45,598 ] 49 root - INFO -initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-05-29 08:29:45,618 ] 46 root - INFO -Entered the save_object method of mainutils class
+[ 2026-05-29 08:29:45,625 ] 50 root - INFO -exited the save_object method of mainUtils class
+[ 2026-05-29 08:29:45,625 ] 30 root - INFO -data Transformation completed
+[ 2026-05-29 08:29:45,625 ] 32 root - INFO -Model Training started
